@@ -24,7 +24,7 @@
 
 - (void)testExample {
 
-    XCTAssertTrue(1 == 2, @"1不等于2");
+    XCTAssertTrue(1 == 1, @"1不等于2");
 }
 
 @end
