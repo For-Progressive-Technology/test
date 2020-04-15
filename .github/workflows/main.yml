@@ -26,4 +26,4 @@ jobs:
       run: pod install
 
     - name: xcode run test
-      run: xcodebuild test -workspace Test.xcworkspace -scheme Test -destination 'platform=iOS Simulator,name=iPhone 8,OS=13.3'
+      run: xcodebuild test -workspace Test.xcworkspace -scheme Test -destination 'platform=iOS Simulator,name=iPhone 8,OS=13.3' | xcpretty
