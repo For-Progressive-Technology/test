@@ -1,0 +1,65 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - JCore (2.1.4)
+  - JPush (3.2.6):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - SDWebImage (5.6.1):
+    - SDWebImage/Core (= 5.6.1)
+  - SDWebImage/Core (5.6.1)
+  - UMCAnalytics (6.0.5):
+    - UMCCommon
+  - UMCCommon (2.1.1)
+  - ZDDLib (0.0.2):
+    - AFNetworking
+
+DEPENDENCIES:
+  - JPush
+  - SDWebImage
+  - UMCAnalytics
+  - UMCCommon
+  - ZDDLib (from `https://gitee.com/effortcheep/ZDDLib.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - JCore
+    - JPush
+    - SDWebImage
+    - UMCAnalytics
+    - UMCCommon
+
+EXTERNAL SOURCES:
+  ZDDLib:
+    :git: https://gitee.com/effortcheep/ZDDLib.git
+
+CHECKOUT OPTIONS:
+  ZDDLib:
+    :commit: ec668a067daca709d9085a20b39ee63cd15146cc
+    :git: https://gitee.com/effortcheep/ZDDLib.git
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  JCore: d345c049141877eb61c33011455fdb5fcab1673f
+  JPush: 41dd48a69bd8c08abc692dc7f2b23c0fb281471f
+  SDWebImage: 7edb9c3ea661e77a66661f7f044de8c1b55d1120
+  UMCAnalytics: 045be2cd1ec05aa95ad62405a850757f932e2d59
+  UMCCommon: 971f324a5a99c9d662ae040a815e7e3d7ef8b2a8
+  ZDDLib: ae73f8710cabe6e5b213723a44e2b2b893bf7aff
+
+PODFILE CHECKSUM: ce198106e55d525d4e7477f07e03285ed5b58547
+
+COCOAPODS: 1.7.5

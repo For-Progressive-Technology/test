@@ -1,0 +1,22 @@
+default_platform(:ios)
+
+platform :ios do
+  lane :test do
+  gym(
+    workspace: "Test.xcworkspace",
+    configuration: "Release",
+    scheme: "Test",
+    silent: true,
+    clean: true,
+    output_directory: "path/",
+    output_name: "my-app.ipa",
+    export_options: {
+      method: "ad-hoc",
+      provisioningProfiles: { 
+        "com.sdsp.mir" => "sdsp_new_adhoc",
+      }
+    }
+  )
+  end
+
+end
